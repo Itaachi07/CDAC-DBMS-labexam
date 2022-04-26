@@ -1,9 +1,9 @@
 
-Drop procedure if exists sp_digitsum;
+Drop procedure if exists sp_digitsum1;
 
 DELIMITER $$
 
-create procedure sp_digitsum(IN s_num INT)
+create procedure sp_digitsum1(IN s_num INT)
 BEGIN
 DEClARE v_res INT Default 0;
 DEClARE v_rem INT ;
